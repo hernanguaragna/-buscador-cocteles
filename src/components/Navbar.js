@@ -17,6 +17,7 @@ export default function Navbar() {
             <Link to='/about'>sobre nosotros</Link>
           </li>
         </ul>
+        
       </div>
       
     </nav>
