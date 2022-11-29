@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../logo.svg'
+import logo from '../cheers-app.png'
 export default function Navbar() {
   return (
     <nav className='navbar'>
@@ -12,11 +12,14 @@ export default function Navbar() {
           <li>
             <Link to='/'>home</Link>
           </li>
+          
           <li>
             <Link to='/about'>sobre nosotros</Link>
           </li>
         </ul>
       </div>
+      
     </nav>
+    
   )
 }
