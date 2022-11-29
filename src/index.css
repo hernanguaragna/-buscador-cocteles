@@ -77,7 +77,7 @@ Buttons
 .btn,
 .btn-white,
 .btn-primary {
-  text-transform: uppercase;
+  text-transform:uppercase;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   border: 2px solid var(--primaryColor);
