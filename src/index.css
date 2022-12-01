@@ -4,12 +4,12 @@ Variables
 ======
 */
 :root {
-  --primaryLightColor: #94B49F;
-  --primaryColor: #0D4C92;
+  --primaryLightColor: #FFB200;
+  --primaryColor: #277BC0;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBackground: #F5E8E4;
+  --mainBackground: #EFF5F5;
   --mainOverlay: rgba(35, 10, 36, 0.4);
   --mainBlack: #222;
   --mainGrey: #ececec;
