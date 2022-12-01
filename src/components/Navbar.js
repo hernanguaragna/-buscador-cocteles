@@ -9,12 +9,13 @@ export default function Navbar() {
           <img src={logo} alt='cocktail db logo' className='logo' />
         </Link>
         <ul className='nav-links'>
+{/*           
           <li>
             <Link to='/'>home</Link>
           </li>
-          
+           */}
           <li>
-            <Link to='/about'>sobre nosotros</Link>
+            <Link to='/about'>nosotros</Link>
           </li>
         </ul>
         
