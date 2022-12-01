@@ -73,9 +73,7 @@ export default function SingleCocktail() {
     } = cocktail
     return (
       <section className='section cocktail-section'>
-        <Link to='/' className='btn btn-primary'>
-          volver
-        </Link>
+       
         <h2 className='section-title'>{name}</h2>
         <div className='drink'>
           <img src={image} alt={name}></img>
@@ -103,6 +101,9 @@ export default function SingleCocktail() {
             </p>
           </div>
         </div>
+        <Link to='/' className='btn btn-primary'>
+          volver
+        </Link>
       </section>
     )
   }
