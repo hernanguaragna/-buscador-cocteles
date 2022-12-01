@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
     <section className="section about-section">
+        <Link to='/' className='btn btn-primary'>
+          volver
+        </Link>
       <h1 className="section-title">Sobre Nosotros</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
